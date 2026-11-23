@@ -1,0 +1,19 @@
+# Test Case TC-002 – Changed Geometry Test
+
+**Test Objective:** Verify that changing bridge geometry updates the generated bridge model and output dimensions.
+
+**Test Inputs:**
+- Span: 35 m
+- Carriageway Width: 8 m
+- Skew Angle: 0°
+- Design Type: Optimized
+
+**Expected Result:** The software should generate the bridge model using the modified geometry and display updated output dimensions.
+
+**Actual Result:** The bridge model was generated successfully. The displayed Span Length was 35.00 m, Overall Bridge Width was 8.90 m, Girder Spacing was 2.23 m, and Deck Thickness was 250 mm.
+
+**Status:** PASS
+
+**Evidence:**
+- TC002_Valid_Input.png
+- TC002_Valid_Output.png

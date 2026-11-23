@@ -1,0 +1,20 @@
+# Test Case TC-004 – Single-Side Footpath Test
+
+**Test Objective:** Verify that selecting a single-side footpath adds a footpath to the bridge model.
+
+**Test Inputs:**
+- Span: 35 m
+- Carriageway Width: 8 m
+- Footpath: Single Side
+- Skew Angle: 0°
+- Design Type: Optimized
+
+**Expected Result:** The software should generate a bridge model with a footpath on one side and an increased overall bridge width.
+
+**Actual Result:** The software generated the 3D bridge model with a single-side footpath. The overall bridge width increased to 10.68 m, while the span length remained 35.00 m.
+
+**Status:** PASS
+
+**Evidence:**
+- TC004_Valid_Input.png
+- TC004_Valid_Output.png

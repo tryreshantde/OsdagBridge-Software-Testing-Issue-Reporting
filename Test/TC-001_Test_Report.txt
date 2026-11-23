@@ -1,0 +1,22 @@
+# Test Case TC-001 – Valid Input Baseline Test
+
+Test Objective Verify that OsdagBridge completes a design run using valid input values.
+
+Test Inputs
+- Span 30 m
+- Carriageway Width 7 m
+- Skew Angle 0°
+- Structure Type Highway Bridge
+- Design Type Optimized
+- Include Median No
+- Footpath None
+
+Expected Result The software should complete the design without unexpected errors and generate the bridge model and output dimensions.
+
+Actual Result The 3D bridge model was generated successfully. The displayed output dimensions were Span Length = 30.00 m, Overall Bridge Width = 7.90 m, Girder Spacing = 1.98 m, and Deck Thickness = 250 mm.
+
+Status PASS
+
+Evidence
+- TC001_Valid_Input.png
+- TC001_Valid_Output.png

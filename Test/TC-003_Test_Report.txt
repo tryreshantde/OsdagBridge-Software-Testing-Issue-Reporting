@@ -1,0 +1,19 @@
+# Test Case TC-003 – Skew Angle Test
+
+**Test Objective:** Verify that OsdagBridge generates a bridge model with a non-zero skew angle.
+
+**Test Inputs:**
+- Span: 35 m
+- Carriageway Width: 8 m
+- Skew Angle: 10°
+- Design Type: Optimized
+
+**Expected Result:** The software should accept the skew angle and generate the bridge model with updated geometry.
+
+**Actual Result:** The software accepted the 10° skew angle and generated the 3D bridge model. The displayed output dimensions were Span Length = 35.00 m, Overall Bridge Width = 8.90 m, Girder Spacing = 2.23 m, and Deck Thickness = 250 mm.
+
+**Status:** PASS
+
+**Evidence:**
+- TC003_Valid_Input.png
+- TC003_Valid_Output.png

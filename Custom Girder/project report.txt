@@ -1,0 +1,9 @@
+**Test: Custom Steel Material Input**
+
+**Objective:** To verify whether OsdagBridge allows users to define and apply custom steel material properties.
+
+**Test Configuration:** A 30 m highway bridge with a 7 m carriageway width was modeled using custom steel with a yield strength of 250 MPa and an ultimate tensile strength of 410 MPa.
+
+**Observed Result:** The custom material was successfully added and assigned to the bridge girder. The software generated the corresponding 3D bridge model.
+
+**Conclusion:** The custom material input functionality worked successfully during the model generation stage. Structural design verification is still required to confirm the complete design workflow.
